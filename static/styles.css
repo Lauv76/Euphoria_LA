@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+body{
+background-color: rgb(150, 101, 196);
+text-align: center;
+ font-family: 'Supermercado One', cursive;
+ font-size: xx-large;
+}
+p{
+    margin: 100px;
+    border: rgb(255, 255, 255);
+    border-style: groove;
+    border-radius: 14px;
+    border-width: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    color: purple;
+    font-family: cursive; 
+}
+nav > ul{
+    color: purple;
+    list-style-type: none;
+    border: 3px solid purple;
+}
+nav > ul > li{
+    display: inline;
+    padding: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 38px;
+}
+nav > ul > li > a:hover{
+    color: purple;
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.btn{
+    background-color:white;
+    font-family: cursive;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(150, 101, 196);
+    font-size: 40px;
+    border: none;
+}
+.btn:hover{
+    color: plum;
+}
+.dropdowncontent{
+display: none;
+background: cyan;
+position: absolute;
+z-index: 1;
+min-width: 160px;
+border: 2px solid yellow;
+font-size: 40px;
+}
+.dropdowncontent a:hover{
+    background-color: lightgoldenrodyellow;
+    color: rgb(247, 179, 247);
+}
+.dropdowncontent a {
+    text-decoration: none;
+    color: purple;
+    display: block;
+    padding: 10px;
+}
+.dropdown:hover .dropdowncontent{display: block;}
+
+input{
+    background-color:white;
+}
+textarea{
+    background-color: black;
+}
+button{
+    background-color: rgb(206, 126, 206);
+    font-family: cursive;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: groove black;
+    border-radius: 10px;
+}
+a:hover{
+    color: purple (0, 0, 0);
+    padding: 0.2px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    font-family: cursive;
+    padding: 0.3px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    /* border: groove blue;
+    border-radius: 10px; */
+}
+img{
+    width: 250px;
+    border: double white 10px;
+    padding: 7px;
+}
+h2{
+    color: white;
+}
+iframe{
+    border: groove;
+    border-color: white;
+    border-width: 7px;
+}
+.login{
+    background-color: rgb(150, 101, 196);
+    color: white;
+    font-family: 'Supermercado One', cursive;
+}
+.login:hover{
+    color: white;
+    font-size: 40px;
+}
+h3{
+    color: white;
+    font-size: xx-large;
+}
+select{
+    text-align: center;
+    text-decoration: none;
+    background-color:  white;
+    font-family: cursive;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
